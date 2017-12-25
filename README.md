@@ -2,6 +2,7 @@
 Some down to numpy implementation of a basic neural network in build
 
 ## Some Crazy Ideas:
+Feel free to clone and try out those ideas! 
 
 ### Neural Network Architure: 
   1. Some weird way to link neurons, like the current layer get input from all layers before. A full version of ResNet that each later take all values from all previous layers. Potentially add some convolution layers to reduce the parameters. An implementation with TensorFlow is [here](https://github.com/shansixiong/Deep-Neural-Network-Implementation/tree/master/random_ideas/FNN). 
