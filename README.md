@@ -13,11 +13,12 @@ Some down to numpy implementation of a basic neural network in build
 
 ### Optimization:
   #### Exploding/Vanishing weight: 
-    1. Different learning rate for different layer to address the explosion increase. 
-    Lower learning rate for eariler layers to make them less subjected to the back prop derivative. 
-    2. Transfer Learning: train one layer on part of data first, and add a layer before it, 
-    and recursively do this. To make earlier layers train on less iterations. 
-    
+  
+  1. Different learning rate for different layer to address the explosion increase. 
+  Lower learning rate for eariler layers to make them less subjected to the back prop derivative. 
+  2. Transfer Learning: train one layer on part of data first, and add a layer before it, 
+  and recursively do this. To make earlier layers train on less iterations. 
+
 
 ### Application:
   #### Sequence Generation: 
