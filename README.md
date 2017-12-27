@@ -1,5 +1,14 @@
 # Deep-Neural-Network-Implementation
-Some down to numpy implementation of a basic neural network in build
+My implementation of some basic Neural Networks, ideas from papers, and some of my own ideas. (Mostly done in TensorFlow). 
+(All of the code are run on NVIDIA TITAN X (Pascal) single GPU, and reported runtime)
+
+## Basic Implementation
+Basic implementation of MLP, CNN, RNN are in basic directory. 
+
+## Implementation of models from research papers
+In paper directory, but with some small changes because can't get exact same data as the paper, and computation power. 
+  1. AlexNet
+  2. LeNet-5
 
 ## Some Crazy Ideas:
 Feel free to clone and try out those ideas! 
