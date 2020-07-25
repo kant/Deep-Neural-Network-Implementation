@@ -25,7 +25,7 @@ Feel free to clone and try out those ideas!
   #### Exploding/Vanishing weight: 
   
   1. Different learning rate for different layer to address the explosion increase. 
-  Lower learning rate for eariler layers to make them less subjected to the back prop derivative. 
+  Lower learning rate for earlier layers to make them less subjected to the back prop derivative. 
   2. Transfer Learning: train one layer on part of data first, and add a layer before it, 
   and recursively do this. To make earlier layers train on less iterations. 
 
@@ -33,4 +33,4 @@ Feel free to clone and try out those ideas!
 ### Application:
   #### Sequence Generation: 
   1. Feed art pictures to some RNN, and let it draw pictures. 
-  2. Compress data, and a DL learn to match the compressed to orginal
+  2. Compress data, and a DL learn to match the compressed to original
